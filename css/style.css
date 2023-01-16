@@ -387,7 +387,7 @@ button {
         max-width: 500px;
         margin: 0 auto;
     }  
-    
+
     /* header responsive  */
     .all-header {
         padding: 0 50px;
@@ -429,6 +429,9 @@ button {
     /* FEATURE RESPONSIVE  */
     .features {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .features-content {
+        width: 600px;
     }
 
     .features-right {
