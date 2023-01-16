@@ -82,6 +82,7 @@ button.service-btn {
 .menu-lists li a {
     font-size: 18px;
     font-weight: 500;
+    color: #424242;
 }
 button.login {
     margin-left: 10px;
@@ -225,10 +226,6 @@ button {
     
  }
 
- .enjoyable-feature-right .thumbnail img {
-    
- }
-
  .tag {
     position: absolute;
     bottom: -30px;
@@ -326,6 +323,8 @@ button {
 }
  .sponspors-inner {
     text-align: center;
+    width: 700px;
+    margin: 0 auto;
  }
  .sponspors-items {
     display: grid;
@@ -338,6 +337,27 @@ button {
  }
 /* End sponspors area  style*/
 
+/* services style  */
+.services-all  {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+
+  }
+
+  .service-head {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .mt-20 {
+    margin-top: 20px;
+
+  }
+
+  /* end services style */
 
 /* Start copy right area  */
 .copyright-area {
@@ -357,11 +377,18 @@ button {
 }
 /* end copy right area  */
 
+
+
 /* responsive style  */
 
-
-
 @media only screen and (max-width: 576px) {
+
+    .width-1440 {
+        max-width: 500px;
+        margin: 0 auto;
+    }  
+    
+    /* header responsive  */
     .all-header {
         padding: 0 50px;
         padding-top: 50px;
@@ -375,6 +402,7 @@ button {
 
     }
 
+    /* start banner responsive  */
     .banner-title {
         font-size: 24px;
         line-height: 38px;
@@ -390,10 +418,7 @@ button {
     .banner-thumbnail img {
         width: 100%;
     }
-    .width-1440 {
-        max-width: 500px;
-        margin: 0 auto;
-    }
+    
 
     .banner-inner {
         width: 500px;
@@ -491,23 +516,35 @@ button {
         left: 40%;
     }
 
-    .services-all {
+    .services-all  {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
+        
+      }
+
+      .sponspors-inner {
+        text-align: center;
+        width: 500px;
+        margin: 0 auto;
     }
+
+
+    /* Services responsive  */
+    .services-all  {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-top: 30px;
     
+      }
+
+      .service-head {
+        width: 500px;
+        margin-top: 30px;
+      }
   }
 
-  /* services style  */
-  .services-all  {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin-top: 30px;
+  /* end responsive style  */
 
-  }
-  .mt-20 {
-    margin-top: 20px;
-
-  }
-
+ 
  
