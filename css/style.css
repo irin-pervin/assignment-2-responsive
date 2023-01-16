@@ -578,5 +578,10 @@ button {
 
   /* end responsive style  */
 
- 
+  @media only screen and (max-width: 576px) {
+    .all-features-images {
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+  }
  
